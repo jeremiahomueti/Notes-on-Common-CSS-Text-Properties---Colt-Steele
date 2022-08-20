@@ -1,0 +1,66 @@
+Text-align is used to arrange the position of a text horizontally, right, left or center.
+
+Font-weights is how we can control the boldness or lightness of a text.
+
+It ranges from certain keywords to numbers.
+
+Font-weight keywords: normal, bold, lighter, bolder, 100, 900. 
+
+and we also have numbers...
+
+Font-weight: 100;
+Font-weight: 200;
+Font-weight: 300;
+Font-weight: 400; //normal
+Font-weight: 500;
+Font-weight: 600;
+Font-weight: 700; //bold
+Font-weight: 800;
+Font-weight: 900;
+
+Not all fonts respond to the above font-weights actually, more on fonts and its eccentricities a bit letter.
+Sometimes the browser doesn't pick up some font numbers, but the closest enabled font for the browser to what you demanded from it.
+
+
+Text decoration controls the appearance of decorative lines on text. So this is how we show underline, overline and
+strikethrough.
+
+text-decoration: underline;
+text-decoration: blue overline;
+
+We can also control the style, that is:
+text-decoration: red strikethrough wavy;
+
+
+Also because links by default changes the colours of hyperlinked texts into underlined blue texts, to remove that, 
+we can say:
+
+all anchor link text-decorations equal none.
+
+a {
+    text-decoration: none;
+}
+
+that's really much for text-decoration. Although you can also control the thickness of the line.
+
+
+Next one is Line-Height, which controls the height of a line of text. From observation, it's really line spacing that
+is called line-height. So, single spacing, 1.5 spacing, double spacing, etc.
+
+In CSS, you have:
+- Line-height: normal;
+- Line-height: 2.5;
+- Line-height: 3em;
+- Line-height: 150%;
+- Line-height: 32PX;
+
+
+So, the format actually varies. According to Colt Steele, we'll get into more the different styles or formats. Actually
+hope we can get through with all these soonest!! Awhhgg!!
+
+
+There is also something called Letter-spacing - that is, s p a c i n g   in between texts.
+
+For example: 
+
+Letter-spacing: 15px;
